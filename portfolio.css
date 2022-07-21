@@ -8,19 +8,19 @@ body{
     
 }
 .mega-container{
-    height: 70vh;
-    width: 60vw;
-    margin: 20% 10% 2% 40%;
+    height: 75vh;
+    width: 65vw;
+    margin: 10% 10% 0% 30%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 .container{
-    height: 55vh;
-    width: 45vw;
+    height: 65vh;
+    width: 55vw;
    
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 #react{
     width:17vw ;
