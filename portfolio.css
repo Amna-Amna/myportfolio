@@ -36,3 +36,13 @@ body{
     height: 25vh;
     margin-left: 23%;
 }
+.name{
+    font-size: 200%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
+.name:hover + .hide{
+    margin: 0 auto;
+    font-family:fantasy;
+    color: green;
+}
