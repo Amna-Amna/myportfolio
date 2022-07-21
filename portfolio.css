@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(0, 0, 0);
+    perspective: 1000px;
+}
+.image1{
+    height: 35vh;
+    width: 25vw;
+    
+}
+.mega-container{
+    height: 70vh;
+    width: 60vw;
+    margin: 20% 10% 2% 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+.container{
+    height: 55vh;
+    width: 45vw;
+   
+    background-color: blueviolet;
+}
+#react{
+    width:17vw ;
+    height: 25vh;
+}
+#bug{
+    width:15vw ;
+    height: 25vh;
+    margin-left: 20%;
+}
+#pair{
+    width:20vw ;
+    height: 25vh;
+    margin-left: 23%;
+}
