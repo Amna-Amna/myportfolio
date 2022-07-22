@@ -1,3 +1,8 @@
+Aos.init({
+    offset :120
+    duration: 400
+})
+
 const megaContainer = document.querySelector(".mega-container")
 const container = document. querySelector(".container")
 

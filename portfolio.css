@@ -40,13 +40,37 @@ body{
     font-size: 200%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: red;
+    margin: 0;
 }
-
 #div1{
     margin-top:-0.1vh ;
     padding: 0;
-    height: 100vh;
+    height: 130vh;
+    width: 100vw;
+    background-color: black;  
+}
+#div2{
+    margin-top:-0.1vh ;
+    padding: 0;
+    height: 130vh;
     width: 100vw;
     background-color: black;
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
+.feature{
+    height: 20vh;
+    width: 40vw;
+    background-color: rgb(182, 169, 169);
+    /* margin: 2rem auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* #top{
+    margin-top: 0;
+} */
