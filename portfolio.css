@@ -43,10 +43,12 @@ body {
 }
 
 .name {
-  font-size: 200%;
+  font-size: 250%;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: red;
   margin: 0;
+  margin-left: 2%;
+  padding-top:2% ;
 }
 
 #div1 {
@@ -61,7 +63,7 @@ body {
   margin-top: -0.1vh;
   padding: 0;
   height: 130vh;
-  width: 99vw;
+  width: 100vw;
   background-color: black;
   display: flex;
   align-items: center;
@@ -75,7 +77,7 @@ body {
   margin-top: -0.1vh;
   padding: 0;
   height: 200vh;
-  width: 99vw;
+  width: 100vw;
   background-color: rgb(0, 0, 0);
   /* display: flex;
   align-items: center;
@@ -94,6 +96,7 @@ body {
   align-items: center;
   justify-content: center;
   color: rgb(247, 216, 169);
+  border-radius: 6px;
 }
 
 .feature1 {
@@ -164,6 +167,7 @@ body {
  margin: 10% 5% 5% 25%;
 }
 .websites{
+  border-radius: 6px;
   height: 20vh;
   width: 40vw;
   background-color: rgb(55, 128, 71);
@@ -172,5 +176,25 @@ body {
   box-shadow: 3px 3px 5px 5px rgb(219, 18, 18);
   align-items: center;
   justify-content: center;
-  color: rgb(175, 13, 22);
+  color: rgb(247, 216, 169);
+  font-family: sans-serif;
+  font-size: xx-large;
+}
+.websites:hover{
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+   color: rgb(219, 18, 18)
+}
+.line{
+  text-decoration: none;
+}
+.intro{
+  height:24vh ;
+  width: 30vw;
+  margin-left: 2%;
+  margin-top: 8%;
+  background-color: rgb(0, 0, 0);
+  color: aqua;
+  font-size: 380%;
+  transform: translate(-50% ,-50%);
+  position: relative;
 }

@@ -1,7 +1,13 @@
+window.ityped.init(document.querySelector(".intro"),{
+  loop:true,
+  Strings:[" AMNA HERE ... ", "I AM FRONTEND DEVELOPER"]
+})
+
 AOS.init({
   offset: 0.001,
   duration: 3000,
 });
+
 
 const megaContainer = document.querySelector(".mega-container");
 const container = document.querySelector(".container");
