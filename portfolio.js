@@ -1,6 +1,17 @@
 window.ityped.init(document.querySelector(".intro"),{
   loop:true,
-  Strings:[" AMNA HERE ... ", "I AM FRONTEND DEVELOPER"]
+  strings:[" AMNA HERE ... ", "I AM FRONTEND DEVELOPER"]
+})
+
+
+window.ityped.init(document.querySelector(".visit"),{
+  loop:true,
+  strings:[" VISIT MY PROJECTS ..."]
+})
+
+window.ityped.init(document.querySelector(".feature1"),{
+  loop:true,
+  strings:[" CONTACT ME ..."]
 })
 
 AOS.init({
