@@ -98,7 +98,18 @@ body {
   color: rgb(194, 34, 34);
 }
 .fb{
-  height:8% ;
-  width:5% ;
+  height:15% ;
+  width:14% ;
   margin: 5rem 2rem;
+}
+.media{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.insta{
+  height:20% ;
+  width:20% ;
 }
